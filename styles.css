@@ -1,0 +1,27 @@
+.chessboard {
+    display: flex;
+    flex-wrap: wrap;
+    width: 480px;
+    height: 480px;
+}
+
+.square {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+}
+
+.square.black {
+    background-color: #b58863;
+}
+
+.square.white {
+    background-color: #f0d9b5;
+}
+
+.highlight {
+    background-color: #9acd32; /* Light green for highlighted squares */
+}
